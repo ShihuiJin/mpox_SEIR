@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Exposure1","Exposure3","Exposure5"
+"CA","Almaty","KAZ",0.14,0.42,0.7
+"CA","Bishkek","KGZ",0.33,1,1.66
+"CA","Dushanbe","TJK",0.44,1.31,2.17
+"CA","Ashgabat","TKM",0.34,1.02,1.68
+"CA","Tashkent","UZB",0.36,1.08,1.79
+"EA","Shanghai","CHN",0.42,1.27,2.11
+"EA","Hong Kong","HKG",0.27,0.8,1.33
+"EA","Taipei","TWN",0.24,0.72,1.19
+"EA","Tokyo","JPN",0.46,1.38,2.3
+"EA","Seoul","KOR",0.39,1.17,1.94
+"SA","Kabul","AFG",1.02,3.05,5.07
+"SA","Dhaka","BGD",0.59,1.77,2.95
+"SA","Mumbai","IND",0.38,1.15,1.92
+"SA","Tehran","IRN",0.33,1,1.67
+"SA","Kathmandu","NPL",0.14,0.42,0.69
+"SA","Karachi","PAK",0.69,2.07,3.44
+"SA","Colombo","LKA",0.28,0.84,1.39
+"SEA","Phnom Penh","KHM",2.7,8.02,13.22
+"SEA","Jakarta","IDN",0.18,0.55,0.91
+"SEA","Vientiane","LAO",2.18,6.42,10.52
+"SEA","Kuala Lumpur","MYS",0.59,1.75,2.91
+"SEA","Yangon","MMR",0.49,1.46,2.43
+"SEA","Manila","PHL",1.53,4.54,7.51
+"SEA","Singapore","SGP",0.5,1.5,2.5
+"SEA","Bangkok","THA",0.5,1.5,2.5
+"SEA","Ho Chi Minh City","VNM",0.18,0.54,0.9
+"WA","Baku","AZE",0.32,0.96,1.6
+"WA","Baghdad","IRQ",0.42,1.24,2.07
+"WA","Jerusalem","ISR",0.33,1,1.65
+"WA","Amman","JOR",0.41,1.22,2.02
+"WA","Beirut","LBN",0.37,1.1,1.82
+"WA","Muscat","OMN",0.51,1.53,2.54
+"WA","Riyadh","SAU",0.48,1.43,2.38
+"WA","Aleppo","SYR",0.57,1.71,2.84
+"WA","Istanbul","TUR",0.23,0.69,1.15
+"WA","Dubai","ARE",1.58,4.68,7.71
+"WA","Sanaa","YEM",0.69,2.05,3.4
