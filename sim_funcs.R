@@ -30,20 +30,6 @@ mpox_sim=function(c,Time=1800, sens=F, risky=0.1){
 estim=function(x){
   c(mean(x), quantile(x, c(0.5,0.025,0.975,0.25,0.75)))
 }
-#doubling time matrix
-doubling_matrix=function(out_full, case_thre=2^c(0:10)){
-  out=as.matrix(do.call('rbind',lapply(countries, function(c){
-    res=out_full[[c]]
-    time0=unlist(lapply(case_thre, function(i){ #first 128 local cases
-      which(res$full_stat$cum_inf>=i)[1]
-    }))
-    doubling=(time0-lag(time0))[-1]
-    c(1/mean(1/doubling, na.rm = T), #harmonic mean-->sensitive to importation frequency
-      mean(doubling, na.rm = T),time0[1],doubling) #arithmatic mean
-  })))%>%round(1)
-  colnames(out)=c('mean_harmonic','mean_arith',paste0('T',1:length(case_thre)-1))
-  out
-}
 
 #time to the first xxx cases
 #x is the number of new cases
@@ -58,7 +44,7 @@ first_time=function(x, thre=10,n.sim=1e3){
   },mc.cores=n.cores)%>%unlist()%>%estim()
 }
 timing=function(out_full, month=T, thre=1){
-  unlist(lapply(countries, function(c){
+  unlist(lapply(1:length(out_full), function(c){
     res=out_full[[c]]
     #t0=which(res$full_stat$cum_case>=thre)[1]
     t0=first_time(res$full_stat$new_case, thre)[2]
@@ -74,7 +60,7 @@ timing=function(out_full, month=T, thre=1){
 #cumulative case counts
 case_count=function(out_full, months=3){
   t1=months*30
-  unlist(lapply(countries, function(c){
+  unlist(lapply(1:length(out_full), function(c){
     res=out_full[[c]]
     t2=length(out_full[[c]]$full_stat$cum_case)
     res$full_stat$cum_case[min(t1,t2)]
@@ -82,9 +68,9 @@ case_count=function(out_full, months=3){
 }
 
 #cumulative number of potential deaths
-death_count=function(out_full,months=3){
+death_count=function(out_full, months=3){
   t1=months*30
-  unlist(lapply(countries, function(c){
+  unlist(lapply(1:length(out_full), function(c){
     res=out_full[[c]]
     t2=length(out_full[[c]]$full_stat$cum_case)
     res$full_stat$cum_deaths[min(t1,t2)]
