@@ -1,38 +1,38 @@
-"region","city","ISOALPHA","Exposure1","Exposure3","Exposure5"
-"CA","Almaty","KAZ",2.8,8.3,13.9
-"CA","Bishkek","KGZ",15.2,45.5,75.3
-"CA","Dushanbe","TJK",26.8,79.7,131.5
-"CA","Ashgabat","TKM",19.2,57.1,94.5
-"CA","Tashkent","UZB",7.5,22.4,37.2
-"EA","Shanghai","CHN",0.8,2.3,3.9
-"EA","Hong Kong","HKG",1.5,4.6,7.6
-"EA","Taipei","TWN",1.2,3.7,6.1
-"EA","Tokyo","JPN",2.3,7,11.6
-"EA","Seoul","KOR",1.6,4.7,7.8
-"SA","Kabul","AFG",14.3,42.8,71.1
-"SA","Dhaka","BGD",2.4,7.1,11.9
-"SA","Mumbai","IND",1.2,3.7,6.2
-"SA","Tehran","IRN",1.9,5.7,9.5
-"SA","Kathmandu","NPL",3.8,11.4,18.9
-"SA","Karachi","PAK",2.5,7.4,12.4
-"SA","Colombo","LKA",17.5,52.3,86.6
-"SEA","Phnom Penh","KHM",75.6,223.9,368.3
-"SEA","Jakarta","IDN",0.9,2.6,4.3
-"SEA","Vientiane","LAO",113.2,332.4,542.6
-"SEA","Kuala Lumpur","MYS",16.7,49.8,82.8
-"SEA","Yangon","MMR",4.5,13.4,22.3
-"SEA","Manila","PHL",41.5,123.2,203.4
-"SEA","Singapore","SGP",5.8,17.5,29.1
-"SEA","Bangkok","THA",4,12,20
-"SEA","Ho Chi Minh City","VNM",2.1,6.2,10.3
-"WA","Baku","AZE",11.9,35.4,58.8
-"WA","Baghdad","IRQ",2.4,7.1,11.8
-"WA","Jerusalem","ISR",17.3,51.4,85
-"WA","Amman","JOR",13.2,39.3,65.2
-"WA","Beirut","LBN",7.9,23.8,39.5
-"WA","Muscat","OMN",26.7,79.4,131.3
-"WA","Riyadh","SAU",4.7,14,23.3
-"WA","Aleppo","SYR",15,44.7,74.1
-"WA","Istanbul","TUR",0.6,1.9,3.1
-"WA","Dubai","ARE",60.6,178.9,293.5
-"WA","Sanaa","YEM",14.9,44.5,73.7
+"region","city","ISOALPHA","Initial_local_infection_1","Initial_local_infection_3","Initial_local_infection_5"
+"CA","Almaty","KAZ",6,17,28
+"CA","Bishkek","KGZ",14,42,69
+"CA","Dushanbe","TJK",19,55,91
+"CA","Ashgabat","TKM",14,42,70
+"CA","Tashkent","UZB",15,45,75
+"EA","Shanghai","CHN",18,53,89
+"EA","Hong Kong","HKG",11,33,54
+"EA","Taipei","TWN",10,29,49
+"EA","Tokyo","JPN",20,59,99
+"EA","Seoul","KOR",16,49,82
+"SA","Kabul","AFG",44,133,221
+"SA","Dhaka","BGD",25,75,125
+"SA","Mumbai","IND",16,48,80
+"SA","Tehran","IRN",14,41,69
+"SA","Kathmandu","NPL",6,17,28
+"SA","Karachi","PAK",29,88,147
+"SA","Colombo","LKA",12,34,57
+"SEA","Phnom Penh","KHM",122,360,592
+"SEA","Jakarta","IDN",7,22,37
+"SEA","Vientiane","LAO",97,285,466
+"SEA","Kuala Lumpur","MYS",25,74,122
+"SEA","Yangon","MMR",20,61,101
+"SEA","Manila","PHL",68,201,332
+"SEA","Singapore","SGP",21,63,105
+"SEA","Bangkok","THA",21,62,104
+"SEA","Ho Chi Minh City","VNM",7,22,36
+"WA","Baku","AZE",13,40,67
+"WA","Baghdad","IRQ",17,52,87
+"WA","Jerusalem","ISR",14,42,69
+"WA","Amman","JOR",17,51,85
+"WA","Beirut","LBN",15,46,77
+"WA","Muscat","OMN",22,64,106
+"WA","Riyadh","SAU",20,60,100
+"WA","Aleppo","SYR",24,73,121
+"WA","Istanbul","TUR",9,28,47
+"WA","Dubai","ARE",70,208,341
+"WA","Sanaa","YEM",29,88,145
