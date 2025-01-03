@@ -31,61 +31,43 @@ estim=function(x){
   c(mean(x), quantile(x, c(0.5,0.025,0.975,0.25,0.75)))
 }
 
-#time to the first xxx cases
-#x is the number of new cases
-first_time=function(x, thre=10,n.sim=1e3){
-  n.t=length(x)
-  mclapply(1:n.sim, function(i){
-    set.seed(i)
-    cum=rpois(n.t, x)%>%cumsum()
-    out=which(cum>=thre)[1]
-    if(length(out)==0) out=n.t
-    out
-  },mc.cores=n.cores)%>%unlist()%>%estim()
-}
-timing=function(out_full, month=T, thre=1){
-  unlist(lapply(1:length(out_full), function(c){
+#cumulative number of infections
+inf_count=function(out_full, months=3){
+  t1=months*30
+  unlist(lapply(countries, function(c){
     res=out_full[[c]]
-    #t0=which(res$full_stat$cum_case>=thre)[1]
-    t0=first_time(res$full_stat$new_case, thre)[2]
-    #t0=res$summary_stat['t0_cum']
-    if(month){
-      round(t0/30,1)
-    }else{
-      t0
-    }
+    res$full_stat$cum_inf[t1]
   }))
 }
 
 #cumulative case counts
 case_count=function(out_full, months=3){
   t1=months*30
-  unlist(lapply(1:length(out_full), function(c){
+  unlist(lapply(countries, function(c){
     res=out_full[[c]]
-    t2=length(out_full[[c]]$full_stat$cum_case)
-    res$full_stat$cum_case[min(t1,t2)]
+    res$full_stat$cum_case[t1]
   }))
 }
 
 #cumulative number of potential deaths
-death_count=function(out_full, months=3){
+death_count=function(out_full,months=3){
   t1=months*30
-  unlist(lapply(1:length(out_full), function(c){
+  unlist(lapply(countries, function(c){
     res=out_full[[c]]
-    t2=length(out_full[[c]]$full_stat$cum_case)
-    res$full_stat$cum_deaths[min(t1,t2)]
+    res$full_stat$cum_deaths[t1]
   }))
 }
 
 #summary statistics derived from raw outputs
-#time to index case, cases/deaths by xx days
-out_sum=function(out_full, delta_t=6, scale=F, thre=1){
+#infection size/cases/deaths by xx days
+out_sum=function(out_full, delta_t=6, scale=F){
   lapply(1:3, function(k){
     out_sum=as.matrix(do.call('cbind', lapply(1:length(out_full), function(i){
-      if(k==1) out=timing(out_full[[i]], F, thre)
+      if(k==1)
+        out=inf_count(out_full[[i]],delta_t)/country_info$population*1e6
       if(k==2){
-        N=rep(1,nrow(city_info))
-        if(scale) N=city_info$population/1e6
+        N=rep(1,nrow(country_info))
+        if(scale) N=country_info$population/1e6
         out=case_count(out_full[[i]],delta_t)/N
       }
       if(k==3) out=death_count(out_full[[i]],delta_t)

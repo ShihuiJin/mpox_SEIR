@@ -63,7 +63,9 @@ paras=list(
 
 #analysis code------------
 sens=F; risky=NA
-#sens=T; risky=c(0.02,0.05,0.1)[1]
+#sens=T; risky=c(0.02,0.05,0.1,'low','high')[1]
+#'low' stands for the lower-risk scenario where undiagnosed infections would recover in 14 days
+#'high' stands for the high-risk scenario where intial importations are all high-risk individuals
 
 #one initial exposure scenario-----------
 n.imp=1
@@ -102,6 +104,10 @@ for(n.imp in 1:3*2-1)
     for(c in city_info$ISOALPHA){
       if(sens&is.numeric(risky)){
         res=mpox_sim(c, Time=Time, sens=T, risky=risky)
+      }else if(sens&(risky=='high')){
+        paras$imp=rep(0,Time)
+        paras$high_init=n.imp; paras$low_init=0
+        res=mpox_sim(c, Time=Time)
       }else{
         res=mpox_sim(c, Time=Time)
       }
@@ -111,7 +117,7 @@ for(n.imp in 1:3*2-1)
   out_imp[[(n.imp+1)/2]]=out_full
 }
 
-out_imp_summ0=out_sum(out_imp, 12, T, thre=2)
+out_imp_summ0=out_sum(out_imp, 12, T)
 
 
 #intervention strategies------------
@@ -129,6 +135,10 @@ for(i in seq_along(iso)){
     for(c in city_info$ISOALPHA){
       if(sens&is.numeric(risky)){
         res=mpox_sim(c, Time=Time, sens=T, risky=risky)
+      }else if(sens&(risky=='high')){
+        paras$imp=rep(0,Time)
+        paras$high_init=n.imp; paras$low_init=0
+        res=mpox_sim(c, Time=Time)
       }else{
         res=mpox_sim(c, Time=Time)
       }
@@ -137,7 +147,7 @@ for(i in seq_along(iso)){
     out_control[[i]]=out_full
 }
 
-out_control_summ0=out_sum(out_control, 12, F, thre=2)
+out_control_summ0=out_sum(out_control, 12, F)
 out_control_comp=out_sum_compare(out_control_summ0[[2]])
 
 
