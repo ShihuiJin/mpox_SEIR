@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Initial_local_infection_1","Initial_local_infection_3","Initial_local_infection_5"
+"CA","Almaty","KAZ",65,196,325
+"CA","Bishkek","KGZ",200,596,985
+"CA","Dushanbe","TJK",364,1074,1765
+"CA","Ashgabat","TKM",245,728,1200
+"CA","Tashkent","UZB",91,272,452
+"EA","Shanghai","CHN",4,13,21
+"EA","Hong Kong","HKG",6,17,28
+"EA","Taipei","TWN",6,19,31
+"EA","Tokyo","JPN",13,39,65
+"EA","Seoul","KOR",9,26,43
+"SA","Kabul","AFG",144,428,710
+"SA","Dhaka","BGD",22,67,111
+"SA","Mumbai","IND",10,31,52
+"SA","Tehran","IRN",16,49,81
+"SA","Kathmandu","NPL",121,361,599
+"SA","Karachi","PAK",23,69,114
+"SA","Colombo","LKA",147,439,726
+"SEA","Phnom Penh","KHM",415,1226,2011
+"SEA","Jakarta","IDN",12,35,59
+"SEA","Vientiane","LAO",710,2075,3371
+"SEA","Kuala Lumpur","MYS",107,320,530
+"SEA","Yangon","MMR",28,83,138
+"SEA","Manila","PHL",340,1008,1658
+"SEA","Singapore","SGP",35,103,172
+"SEA","Bangkok","THA",12,37,62
+"SEA","Ho Chi Minh City","VNM",29,87,144
+"WA","Baku","AZE",157,467,772
+"WA","Baghdad","IRQ",32,95,157
+"WA","Jerusalem","ISR",225,669,1102
+"WA","Amman","JOR",177,527,873
+"WA","Beirut","LBN",105,313,520
+"WA","Muscat","OMN",377,1118,1842
+"WA","Riyadh","SAU",66,197,327
+"WA","Aleppo","SYR",208,620,1025
+"WA","Istanbul","TUR",8,24,40
+"WA","Dubai","ARE",953,2786,4530
+"WA","Sanaa","YEM",206,613,1015

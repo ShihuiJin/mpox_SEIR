@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Initial_high_risk_local_infection_1","Initial_high_risk_local_infection_2"
+"CA","Almaty","KAZ",8,881
+"CA","Bishkek","KGZ",41,2531
+"CA","Dushanbe","TJK",74,4007
+"CA","Ashgabat","TKM",51,2903
+"CA","Tashkent","UZB",20,1235
+"EA","Shanghai","CHN",2,90
+"EA","Hong Kong","HKG",3,142
+"EA","Taipei","TWN",3,135
+"EA","Tokyo","JPN",5,362
+"EA","Seoul","KOR",3,190
+"SA","Kabul","AFG",40,1955
+"SA","Dhaka","BGD",6,303
+"SA","Mumbai","IND",3,151
+"SA","Tehran","IRN",5,233
+"SA","Kathmandu","NPL",11,1225
+"SA","Karachi","PAK",7,326
+"SA","Colombo","LKA",44,2229
+"SEA","Phnom Penh","KHM",195,6092
+"SEA","Jakarta","IDN",2,165
+"SEA","Vientiane","LAO",292,8868
+"SEA","Kuala Lumpur","MYS",42,1525
+"SEA","Yangon","MMR",11,434
+"SEA","Manila","PHL",107,4403
+"SEA","Singapore","SGP",13,555
+"SEA","Bangkok","THA",9,274
+"SEA","Ho Chi Minh City","VNM",5,416
+"WA","Baku","AZE",30,2034
+"WA","Baghdad","IRQ",7,408
+"WA","Jerusalem","ISR",44,3035
+"WA","Amman","JOR",36,2047
+"WA","Beirut","LBN",20,1540
+"WA","Muscat","OMN",74,3295
+"WA","Riyadh","SAU",13,670
+"WA","Aleppo","SYR",41,2284
+"WA","Istanbul","TUR",2,115
+"WA","Dubai","ARE",164,6738
+"WA","Sanaa","YEM",43,2357

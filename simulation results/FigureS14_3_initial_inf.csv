@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Initial_high_risk_local_infection_1","Initial_high_risk_local_infection_2","Initial_high_risk_local_infection_3","Initial_high_risk_local_infection_4"
+"CA","Almaty","KAZ",23,894,1585,2152
+"CA","Bishkek","KGZ",122,2593,4441,5899
+"CA","Dushanbe","TJK",219,4106,6703,8623
+"CA","Ashgabat","TKM",154,2980,5059,6682
+"CA","Tashkent","UZB",59,1270,2330,3269
+"EA","Shanghai","CHN",5,93,180,267
+"EA","Hong Kong","HKG",9,148,285,421
+"EA","Taipei","TWN",8,140,271,401
+"EA","Tokyo","JPN",14,371,715,1047
+"EA","Seoul","KOR",10,197,380,561
+"SA","Kabul","AFG",118,2023,3677,5134
+"SA","Dhaka","BGD",19,315,604,887
+"SA","Mumbai","IND",9,157,303,448
+"SA","Tehran","IRN",14,243,466,686
+"SA","Kathmandu","NPL",33,1242,2096,2747
+"SA","Karachi","PAK",20,340,651,956
+"SA","Colombo","LKA",130,2301,4063,5531
+"SEA","Phnom Penh","KHM",581,6387,10910,14585
+"SEA","Jakarta","IDN",7,170,329,484
+"SEA","Vientiane","LAO",864,9242,14976,19271
+"SEA","Kuala Lumpur","MYS",125,1602,2955,4201
+"SEA","Yangon","MMR",34,456,868,1268
+"SEA","Manila","PHL",318,4565,7865,10541
+"SEA","Singapore","SGP",40,581,1104,1610
+"SEA","Bangkok","THA",27,292,554,813
+"SEA","Ho Chi Minh City","VNM",16,426,811,1173
+"WA","Baku","AZE",91,2083,3648,4925
+"WA","Baghdad","IRQ",20,421,805,1173
+"WA","Jerusalem","ISR",132,3096,5119,6626
+"WA","Amman","JOR",108,2107,3735,5101
+"WA","Beirut","LBN",61,1574,2819,3871
+"WA","Muscat","OMN",221,3411,5879,7877
+"WA","Riyadh","SAU",38,694,1312,1897
+"WA","Aleppo","SYR",124,2352,4163,5679
+"WA","Istanbul","TUR",5,118,230,341
+"WA","Dubai","ARE",488,6945,11249,14441
+"WA","Sanaa","YEM",128,2427,4289,5847

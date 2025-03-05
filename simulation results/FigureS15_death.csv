@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Initial_local_infection_1","Initial_local_infection_3","Initial_local_infection_5"
+"CA","Almaty","KAZ",0.1,0.2,0.4
+"CA","Bishkek","KGZ",0.4,1.2,2.1
+"CA","Dushanbe","TJK",0.7,2.1,3.5
+"CA","Ashgabat","TKM",0.5,1.6,2.6
+"CA","Tashkent","UZB",0.2,0.6,1
+"EA","Shanghai","CHN",0,0.1,0.1
+"EA","Hong Kong","HKG",0.1,0.2,0.3
+"EA","Taipei","TWN",0,0.1,0.2
+"EA","Tokyo","JPN",0.1,0.3,0.4
+"EA","Seoul","KOR",0.1,0.2,0.3
+"SA","Kabul","AFG",0.4,1.1,1.8
+"SA","Dhaka","BGD",0.1,0.2,0.3
+"SA","Mumbai","IND",0,0.1,0.2
+"SA","Tehran","IRN",0.1,0.2,0.3
+"SA","Kathmandu","NPL",0.1,0.3,0.5
+"SA","Karachi","PAK",0.1,0.2,0.3
+"SA","Colombo","LKA",0.5,1.5,2.6
+"SEA","Phnom Penh","KHM",2,5.9,9.8
+"SEA","Jakarta","IDN",0,0.1,0.1
+"SEA","Vientiane","LAO",3,8.9,14.5
+"SEA","Kuala Lumpur","MYS",0.5,1.4,2.3
+"SEA","Yangon","MMR",0.1,0.4,0.6
+"SEA","Manila","PHL",1.1,3.3,5.5
+"SEA","Singapore","SGP",0.2,0.6,0.9
+"SEA","Bangkok","THA",0.1,0.4,0.7
+"SEA","Ho Chi Minh City","VNM",0.1,0.2,0.3
+"WA","Baku","AZE",0.3,1,1.7
+"WA","Baghdad","IRQ",0.1,0.2,0.3
+"WA","Jerusalem","ISR",0.5,1.5,2.4
+"WA","Amman","JOR",0.3,1,1.7
+"WA","Beirut","LBN",0.2,0.7,1.1
+"WA","Muscat","OMN",0.7,2,3.4
+"WA","Riyadh","SAU",0.1,0.4,0.6
+"WA","Aleppo","SYR",0.4,1.2,1.9
+"WA","Istanbul","TUR",0,0.1,0.1
+"WA","Dubai","ARE",1.5,4.5,7.5
+"WA","Sanaa","YEM",0.4,1.1,1.8

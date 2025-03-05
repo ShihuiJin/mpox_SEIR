@@ -1,0 +1,38 @@
+"region","city","ISOALPHA","Initial_high_risk_local_infection_1","Initial_high_risk_local_infection_2","Initial_high_risk_local_infection_3","Initial_high_risk_local_infection_4","Initial_high_risk_local_infection_5","Initial_high_risk_local_infection_6"
+"CA","Almaty","KAZ",39,907,1596,2162,2638,3048
+"CA","Bishkek","KGZ",202,2655,4491,5942,7132,8133
+"CA","Dushanbe","TJK",363,4203,6778,8685,10185,11411
+"CA","Ashgabat","TKM",255,3056,5121,6735,8049,9149
+"CA","Tashkent","UZB",99,1305,2361,3298,4137,4895
+"EA","Shanghai","CHN",9,96,184,271,357,442
+"EA","Hong Kong","HKG",16,154,291,427,562,695
+"EA","Taipei","TWN",13,146,276,406,534,660
+"EA","Tokyo","JPN",24,380,724,1056,1376,1686
+"EA","Seoul","KOR",17,203,387,567,745,921
+"SA","Kabul","AFG",197,2092,3738,5189,6484,7651
+"SA","Dhaka","BGD",31,327,616,899,1176,1446
+"SA","Mumbai","IND",16,163,309,454,596,737
+"SA","Tehran","IRN",24,252,476,695,910,1122
+"SA","Kathmandu","NPL",55,1259,2111,2760,3279,3707
+"SA","Karachi","PAK",34,353,664,969,1266,1556
+"SA","Colombo","LKA",216,2373,4124,5585,6830,7908
+"SEA","Phnom Penh","KHM",960,6678,11144,14781,17830,20445
+"SEA","Jakarta","IDN",11,174,333,489,640,789
+"SEA","Vientiane","LAO",1422,9609,15247,19486,22850,25622
+"SEA","Kuala Lumpur","MYS",208,1678,3026,4267,5416,6485
+"SEA","Yangon","MMR",56,478,889,1289,1679,2059
+"SEA","Manila","PHL",527,4725,7995,10650,12872,14775
+"SEA","Singapore","SGP",67,607,1129,1634,2123,2596
+"SEA","Bangkok","THA",45,310,571,830,1085,1337
+"SEA","Ho Chi Minh City","VNM",27,437,821,1183,1524,1847
+"WA","Baku","AZE",151,2131,3689,4960,6027,6940
+"WA","Baghdad","IRQ",33,433,817,1185,1538,1878
+"WA","Jerusalem","ISR",220,3157,5167,6665,7845,8808
+"WA","Amman","JOR",179,2166,3786,5145,6311,7328
+"WA","Beirut","LBN",101,1608,2849,3896,4798,5587
+"WA","Muscat","OMN",367,3525,5974,7959,9617,11036
+"WA","Riyadh","SAU",64,718,1336,1920,2473,2999
+"WA","Aleppo","SYR",205,2419,4220,5729,7024,8153
+"WA","Istanbul","TUR",8,122,234,344,452,559
+"WA","Dubai","ARE",805,7148,11399,14560,17060,19117
+"WA","Sanaa","YEM",212,2496,4348,5899,7229,8391
